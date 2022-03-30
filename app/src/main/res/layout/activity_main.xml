@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="45dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/fNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/lNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Last Name"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/mailInputET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/passInputET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/cPassInputET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Confirm password"
+        android:textSize="25sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_700"
+        android:text="Log in"/>
+
+</LinearLayout>
